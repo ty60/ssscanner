@@ -116,6 +116,7 @@ def main():
             print('{}:{}, {}:{}'.format(
                 syn_p['IP'].src, syn_p['TCP'].sport,
                 syn_p['IP'].dst, syn_p['TCP'].dport))
+    else:
         port_c = Counter()
         for syn_p in gen_scan_pkts(args.pcapfile, args.windowsize):
             port_c[syn_p.dport] += 1
