@@ -13,7 +13,7 @@ source ip:port, dest ip:port
 ...
 
 ```
-![Scan Result](https://github.com/kttkyk/ssscanner/test.png)
+![Scan Result](https://github.com/kttkyk/ssscanner/raw/master/test.png)
 - Can see that telnet (23), eternalblue (445), microsoft sql (1433) are being targeted.
 
 # Method
