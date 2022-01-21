@@ -5,7 +5,7 @@ decorator==4.3.2
 dnspython==1.16.0
 geoip2==2.9.0
 idna==2.8
-ipython==7.2.0
+ipython==7.16.3
 ipython-genutils==0.2.0
 jedi==0.13.2
 maxminddb==1.4.1
